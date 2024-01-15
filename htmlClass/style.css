@@ -1,0 +1,87 @@
+/* All style for book page */
+
+body {
+    background-color: #F2CFBB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: #364259;
+}
+
+h1 {
+    color:#2C4373;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 16px;
+    border-bottom: solid 2px gray;
+}
+
+cite {
+    color: #735858;
+    font-style: italic;
+    font-weight: bold;
+}
+
+blockquote p, footer p{
+    color: #2C4373;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+strong {
+    color: #915A33;
+    font-style: italic;
+    border: dashed 2px #240F04;
+    border-radius: 4px;
+}
+
+strong:hover {
+    background-color: #DBBBA0;
+}
+
+#listClassified {
+    color: #110700;
+    text-align: center;
+    font-weight:  bold;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    color: #240F04;
+    font-style: italic;
+}
+
+li:hover {
+    background-color: #00A199;
+    color: #E5E7E7;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.footerCite {
+    color: #735858;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer a {
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: none;
+    color: #2C4373;
+}
+
+footer a:visited {
+    color:#00A199
+}
+
+footer a:hover {
+    background-color: #915A33;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+}
